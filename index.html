@@ -5,21 +5,29 @@
   <meta charset="UTF-8" />
   <title>Image Search</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="module" crossorigin src="/goit-js-hw-11/assets/index-DqqAuCQJ.js"></script>
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-BEexJW1z.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script type="module" crossorigin src="/goit-js-hw-11/assets/index-D1Qxhe7K.js"></script>
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-o79lI0LQ.css">
 </head>
 
 <body>
   <form class="form">
-    <label>
-      <input type="text" name="search-text" placeholder="Search images..." required />
+    <label class="search">
+      <input type="text" class="search-input" name="search-text" placeholder="Search images..." required />
     </label>
     <button type="submit">Search</button>
   </form>
 
-  <span class="loader hidden"></span>
-
+ 
+ 
   <ul class="gallery"></ul>
+  
+  
+  <div id="loader" class="loader hidden"></div>
+  
 
 
 </body>
