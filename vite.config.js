@@ -1,5 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/goit-js-hw-11/', 
+    base: '/goit-js-hw-11/',
+    define: {
+        global: 'window',
+    },
 });
+
