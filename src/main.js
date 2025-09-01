@@ -2,16 +2,19 @@ import './css/styles.css';
 import 'izitoast/dist/css/iziToast.min.css';
 import iziToast from 'izitoast';
 import "loaders.css/loaders.min.css";
-
-
-
 import { getImagesByQuery } from './js/pixabay-api.js';
-import {
-    createGallery,
-    clearGallery,
-    showLoader,
-    hideLoader,
-} from './js/render-functions.js';
+import { createGallery, clearGallery, showLoader, hideLoader } from './js/render-functions.js';
+
+
+
+
+// import { getImagesByQuery } from './js/pixabay-api.js';
+// import {
+//     createGallery,
+//     clearGallery,
+//     showLoader,
+//     hideLoader,
+// } from './js/render-functions.js';
 
 const form = document.querySelector('.form');
 const input = form.elements['search-text'];
