@@ -2,8 +2,7 @@ import './css/styles.css';
 import 'izitoast/dist/css/iziToast.min.css';
 import iziToast from 'izitoast';
 import "loaders.css/loaders.min.css";
-import './js/pixabay-api.js';
-import './js/render-functions.js';
+
 
 
 import { getImagesByQuery } from './js/pixabay-api.js';
